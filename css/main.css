@@ -1,0 +1,64 @@
+html {
+	box-sizing: border-box;
+	color: #fff;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+}
+body {
+	background-color: #eee;
+}
+button {
+	font-size: 20px;
+  border-radius: 3px;
+}
+
+form {
+	margin-bottom: 25px;
+}
+input {
+	font-size: 20px;
+}
+input[type="submit"] {
+	font-size: 20px;
+}
+li {
+	background-color: #fff;
+	color: #000;
+	padding: 10px 15px;
+}
+section {
+	margin: 25px;
+	padding: 10px;
+	background-color: #222;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	max-width: 500px;
+	width: 80%;
+}
+.delete:hover {
+	cursor: pointer;
+}
+.doneStyle {
+	text-decoration: line-through;
+	color: #d3d3d3;
+}
+.edit:hover {
+	cursor: pointer;
+}
+.extra {
+	display: inline-block;
+	margin-left: 15px;
+}
+.hidden {
+	display: none;
+}
+.item:hover {
+	cursor: pointer;
+}
+.save:hover {
+	cursor: pointer;
+}
+#toDosLeft {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
